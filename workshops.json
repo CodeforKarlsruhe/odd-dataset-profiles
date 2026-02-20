@@ -23,59 +23,26 @@
           "imagePath": "img/powerbi.png"
         },
         {
+          "name": "Offene Geodaten finden und nutzen",
+          "referent": "Martin Weis (OK Lab Karlsruhe)",
+          "topics": ["Open Data", "Geodaten", "Visualisierung"],
+          "format": "Workshop",
+          "time": "TBA",
+          "description": "Viele Daten kommen mit einem Raumbezug, der die Frage zum 'wo in aller Welt ist das?' beantwortet. Damit hat man bereits Geodaten, die als Grundlage für Visualisurungen auf Karten und für Berechnungen dienen. Die Welt der Geodaten besteht aus einer großen Zahl an Systemen, Formaten und Software. Wir werden in diesem Workshop eine Einführung in geographische Informationssysteme (GIS) und frei nutzbare Datenquellen geben und eine Reise durch Open Data Portale und die darin auffindbaren Dienste antreten. Recherche und  jeder diese Infomationen nutzen kann. Existierende Möglichkeiten, selbst solche Daten zu erfassen und zu kombinieren werden vorgestellt - praktisch alle Telefone haben heutzutage GPS eingebaut, mit dem man live Positionen aufzeichnen und navigieren kann.",
+          "prerequisites": "Keine",
+          "location": "TODO",
+          "imagePath": "img/geodaten.png"
+        },
+        {
           "name": "Führung House of Living Labs",
           "referent": "TODO (FZI Forschungszentrum Informatik)",
-          "topics": ["Open Data", "Verwaltung"],
+          "topics": ["Open Data", "Verwaltung", "Forschung"],
           "format": "Führung",
           "time": "Samstag 12:30 Uhr - 13:00 Uhr",
           "description": "TODO Unsere Location: Mitten in der IT-Region Karlsruhe hat das FZI auf zwei Stockwerken mit über 2.000 Quadratmetern eine neuartige Forschungsumgebung insbesondere für kleine und mittlere Unternehmen geschaffen, die branchen- und anwendungsfeldübergreifend für Forschung und Entwicklung zur Verfügung steht: das FZI House of Living Labs. In der Führung lernst du die verschiedenen Forschungsprojekte kennen, siehst, wie hier evaluaiert und entwickelt wird, entdeckst Real-Life Szenarien und findest heraus, welche Ideen und Innovationen hier schon generiert wurden.",
           "prerequisites": "Keine",
           "location": "TODO",
           "imagePath": "img/fziholl.png"
-        },
-        {
-          "name": "Datenanalyse mit Kryptographischen Methoden ohne Kryptographischer Expertise",
-          "referent": "TODO (OK Lab Karlsruhe)",
-          "topics": ["Open Data", "Verwaltung"],
-          "format": "Workshop",
-          "time": "Samstag 14:30 Uhr - 15:15 Uhr",
-          "description": "TODO",
-          "prerequisites": "Keine",
-          "location": "TODO",
-          "imagePath": "img/krypto.png"
-        },
-        {
-          "name": "Ich will digital sein! Wie du einen 3D Scan von dir machst",
-          "referent": "Marvin Bauch (Studio Blaupause)",
-          "topics": ["Virtual Reality"],
-          "format": "Vortrag & Workshop",
-          "time": "Samstag 15:30 Uhr - 16:15 Uhr",
-          "description": " Überblick über Scanverfahren, technische Hintergründe, Dateiformate, Mit Live-Demo. Wer mag kann sich (grob) einscannen (lassen), im Anschluss.",
-          "prerequisites": "Keine",
-          "location": "TODO",
-          "imagePath": "img/3dperson.jpg"
-        },
-        {
-          "name": "Ist das noch Bildhauerei? Von VR Modellierung bis zum 3D Druck",
-          "referent": "Julia Federspiel (Studio Blaupause)",
-          "topics": ["Virtual Reality"],
-          "format": "Vortrag & Workshop",
-          "time": "TODO",
-          "description": " Überblick über Kunstrichtungen insb. klassische Bildhauerei und wie sich diese im Kontext moderner Werkzeuge (3D Scan, 3D Druck, VR Modellierung) widerspiegelt. Mit VR Brille und Hands-On Experience - wer mag kann sein eigenes Kunstwerk modellieren.",
-          "prerequisites": "Keine",
-          "location": "TODO",
-          "imagePath": "img/bildhauereivr.jpg"
-        },
-        {
-          "name": "Mini City",
-          "referent": "Daniel Schwarz (Hochschule Karlsruhe)",
-          "topics": ["Virtual Reality"],
-          "format": "Workshop",
-          "time": "Samstag 16:30 Uhr - 17:15 Uhr",
-          "description": " TODO.",
-          "prerequisites": "Keine",
-          "location": "TODO",
-          "imagePath": "img/minicity.png"
         }
     ]
 }
