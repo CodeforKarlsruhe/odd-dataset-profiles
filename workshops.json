@@ -125,7 +125,7 @@
           "topics": ["Open Data", "Verwaltung"],
           "format": "Workshop",
           "time": "TBA",
-          "description": "Dieser Workshop führt in die Planung einer PV-Anlage anhand eines selbst umgesetzten Projektes ein und gibt Tipps für die eigene Herangensweise anhand der gewonnenen Erfahrungen. Ein Datensatz mit einer Zeitreihe kann für Untersuchungen und Visualisierungen genutzt werden.",
+          "description": "Dieser Vortrag schildert die Erfahrungen aus einem selbst umgesetzten Projekt und gibt Empfehlungen für die eigene Herangehensweise. Datensätze aus der Zeit vor und nach der Installation visualisieren die konkreten positiven und negativen Effekte im Jahres- und Tagesverlauf und damit verbundene Einsparpotentiale.",
           "prerequisites": "Keine",
           "location": "TBA",
           "imagePath": "img/pv-planung.png",
