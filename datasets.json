@@ -1,198 +1,103 @@
 {
   "datasets": [
     {
-      "name": "3D-Stadtmodell & Mini City Karlsruhe",
-      "publisher": "IT Amt Karlsruhe",
-      "topics": ["Stadtplanung", "Geodaten"],
-      "formats": ["cityjson", "citygml"],
+      "name": "3D-Stadtmodell Karlsruhe",
+      "publisher": "Liegenschaftsamt Karlsruhe",
+      "topics": [
+        "Stadtplanung",
+        "Geodaten"
+      ],
+      "formats": [
+        "cityjson",
+        "citygml",
+        "glb"
+      ],
       "size": "3GB",
-      "description": "Karlsruhe in 3D erkunden: Gebäude, Gelände, Verkehrsinfrastruktur, Vegetation, Stadtmobiliar und Bäume. Die Daten stehen in verschiedenen Levels of Detail (LoD) bereit, wobei Kernbereiche der Innenstadt sogar fotorealistisch texturiert sind. Auf der Grundlage des Digitalen Zwillings können komplexe und dynamische Zusammenhänge anschaulich dargestellt werden, sowie mögliche Veränderungen schon vorab in Simulationen getestet werden. Die 3D-Daten können beim Projekt 'Mini City Karlsruhe' eingesetzt werden, um eine real-daten-basierte 'Comic-Version' in der Computerspielewelt von Roblox nachzubauen. Dieser digitale Zwilling der Stadt Karlsruhe soll zur digitalen Bürgerbeteiligung und zum interaktiven Teilhabe-Tool ausgebaut werden. Passwort: odd2025",
-      "contact": "Daniel Schwarz (Hochschule Karlsruhe), Sven Klenert (IT Amt Karlsruhe)",
+      "description": "Karlsruhe in 3D erkunden: Alle Gebäude stehen als LoD2 (Levels of Detail 2) bereit. Die 3D-Daten können in eigenen Anwendungen verwendet werden. Einfacher Beispielcode für Konvertierung in GLB Meshes (ohne Texturen) ist vorhanden.",
+      "contact": "Andreas Kugel (OK Lab), Thomas Hauenstein (Liegenschaftsamt Karlsruhe)",
       "useCases": "Digital Twin, Mini-City Projekte, 3D-Visualisierungen",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/ka3d",
-      "imagePath": "img/digitaltwin.png"
-    },
-    {
-      "name": "Stadtradeln 2023/2024",
-      "publisher": "Umweltamt Karlsruhe",
-      "topics": ["Mobilität", "Umwelt", "Geodaten"],
-      "formats": ["GeoJSON"],
-      "size": "Jahresdatensatz",
-      "description": "Daten zu gefahrenen Radwegen in Karlsruhe aus dem Stadtradeln-Programm",
-      "contact": "Stefan Jergentz (Umweltamt Karlsruhe)",
-      "useCases": "Mobilitätsanalyse Radverkehr",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/Stadtradeln_2023-2024",
-      "imagePath": "img/stadtradeln.png"
-    },
-    {
-      "name": "Nextbike Datensatz",
-      "publisher": "FZI Forschungszentrum Informatik / Privat",
-      "topics": ["Mobilität", "Sharing Economy",  "Geodaten"],
-      "formats": ["json"],
-      "size": "2,5 TB, 3 Jahre, 5-Minuten-Intervalle",
-      "description": "Historische Daten von Nextbike-Stationen via REST-Schnittstelle gesammelt (seit 2022). Seit 2022 sammeln wir alle 5 Minuten Nextbike-Daten aus ganz Deutschland. Der Datensatz bietet Raum für kreative Analysen, Visualisierungen und neue Erkenntnisse rund um Fahrradmobilität. Alternativ könnt ihr auch live eigene weltweite Daten sammeln.",
-      "contact": "FZI Forschungszentrum Informatik",
-      "useCases": "Bike-Sharing Analysen",
-      "downloadUrl": "https://api.nextbike.net/maps/nextbike-live.json?countries=de",
-      "imagePath": "img/nextbike.jpg"
-    },
-    {
-      "name": "IDEAL Household Energy Dataset - Energiedaten",
-      "publisher": "FZI Forschungszentrum Informatik",
-      "topics": ["Energie", "Smart Home"],
-      "formats": ["CSV"],
-      "size": "Stromverbrauchsdaten 255 britischer Haushalte",
-      "description": "Enthält Daten zum Energieverbrauch aus 255 Haushalten im Vereinigten Königreich. Auf Basis der Stromdaten und optional weiteren Informationen soll eine Prognose für den Stromverbrauch eines bestimmten Haushalts für jede Viertelstunde des nächsten Tages erstellt werden. Es stehen euch sowohl die Rohdaten als auch bereits vorverarbeitete Daten zur Verfügung. Die Güte eures Prognosemodells könnt ihr mit der bereitgestellten Baseline-Prognose eines ARIMA-Modells vergleichen. Passwort: odd2025",
-      "contact": "FZI Forschungszentrum Informatik",
-      "useCases": "Lastprognosen, Solaratlas-Anbindung, Energiemanagement-Forschung",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/fzi",
-      "imagePath": "img/idealenergy.png"
-    },
-    {
-      "name": "Trajektoriendaten auf eine Forschungskreuzung – TAF-BW Datensatz",
-      "publisher": "FZI Forschungszentrum Informatik",
-      "topics": ["Autonomes Fahren", "Mobilitätsforschung"],
-      "formats": ["CSV", "GeoJSON", "OSM", "Lanelet"],
-      "size": "kleiner 100 MB Objektlistendaten",
-      "description": "Im Rahmen des Testfeldes Autonomes Fahren - BW (TAF) erfolgt die Erhebung von Daten an, mit Kameras ausgestatteten Straßenkreuzungen, um den Verkehrsfluss und das Verhalten der Verkehrsteilnehmer zu analysieren. Der Datensatz wurde nach dem Tracking-Prozess entnommen und es wurden noch keine besonderen Optimierungs- und Post-Processing-Schritte durchgeführt. Die Daten eröffnen die Möglichkeit der Glättung und einer darauf aufbauenden Analyse der Verhaltensprofile einzelner Verkehrsteilnehmer. Der Datensatz besteht aus Zeitstempeln, Geschwindigkeitsvektoren, Art, Größe und Position des Verkehrsteilnehmers. Es gibt bereits eine Visualisierung. Passwort: odd2025",
-      "contact": "FZI Forschungszentrum Informatik",
-      "useCases": "Datenanalyse für autonomes Fahren, Verkehrsoptimierung, Kreuzungssteuerung",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/fzi/taf_data",
-      "imagePath": "img/autonomousdriving.png"
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/ka-3d",
+      "imagePath": "img/fzi-area-marked.png"
     },
     {
       "name": "Ratsinformationssystem Karlsruhe",
-      "publisher": "Stadt Karlsruhe / Andreas Kugel",
-      "topics": ["Politik", "Transparenz"],
-      "formats": ["PDF", "Text"],
-      "size": "40GB, laufend mehr",
-      "description": "Im Ratsinformationssystem gibt es Volltexte politischer Beschlüsse (Ergebnisse aus dem Gemeinderat). Wir wollen diese besser durchsuchbar machen, beispielsweise mit einem KI-Chatbot auf RAG Basis. Um die große Datenmenge für eine KI durchsuchbar zu machen müssen relevante Inhalte vermutlich vorverarbeitet werden.",
-      "contact": "Andread Kugel (OK Lab Karlsruhe)",
+      "publisher": "Stadt Karlsruhe",
+      "topics": [
+        "Politik",
+        "Transparenz"
+      ],
+      "formats": [
+        "PDF",
+        "Text",
+        "Json",
+        "MySQL Datenbank",
+        "Embedding-Vectoren"
+      ],
+      "size": "7GB",
+      "description": "Im Ratsinformationssystem gibt es Volltexte politischer Beschlüsse (Ergebnisse aus dem Gemeinderat). Wir wollen diese besser durchsuchbar machen, beispielsweise mit einem KI-Chatbot auf RAG Basis. Die RIS-Daten werden über eine Oparl-Api zur Verfügung gestellt. Diese Api wird auch in anderen Städten verwendet. Wir haben die Rohdaten, die via Oparl erhätlich sind, abgerufen und nachverarbeitet. Diese Daten liegen im JSON Format Format vor. Wir haben dann alle referenzierten PDF Dokumente (ca 40000) abgerufen und in Markdown umgewandelt, sowie Tabellen extrahiert (beides sofern möglich). Die Markdown Texte wurde mit einem Sprachmodel zusammengefasst. Daraus wurden Embedding-Vektoren erzeugt. Wir haben versucht, das ursprüngliche Datenmodel in einer MySql Datenbank zu rekonstruieren. Es stehen somit verschiedene Möglichkeiten zur Verarbeitung bereit.",
+      "contact": "Wolfgang Radke, Jaro Eiermann, Andreas Kugel (OK Lab)",
       "useCases": "Large-language Model (LLM), RAG, Politische Analysen",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/ka-ris",
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/ka-ris",
       "imagePath": "img/ratsinformationssystem.png"
     },
     {
-      "name": "Klimaschutzkonzept & Daten für Klima-Dashboard",
-      "publisher": "Stadt Karlsruhe (Umweltamt) / OK Lab Karlsruhe",
-      "topics": ["Klima", "Energie"],
-      "formats": ["PDF", "XLS", "CSV", "SHP"],
-      "size": "siehe Repo",
-      "description": "Datenbasis für das Klimadashboard-Prototyp mit Maßnahmenkatalog. Wo steht Karlsruhe beim Klimaschutz? Dashboard Prototyp unter: https://dashboard.daten.city . QGIS, Geopandas, Shapely etc. nützlich.",
-      "contact": "Andreas Kugel (OK Lab Karlsruhe)",
-      "useCases": "Klimamonitoring, Klimadashboard, Heatmaps, OSM-Synchronisation",
-      "downloadUrl": "https://github.com/digital-codes/klimaDashboard",
-      "imagePath": "img/klimadashboard.png"
-    },
-    {
-      "name": "Fahrradunfalldaten",
-      "publisher": "Polizeipräsidium Karlsruhe",
-      "topics": ["Verkehrssicherheit", "Geodaten"],
-      "formats": ["GeoPKG", "geojson", "XLSX"],
-      "size": "2017 bis 2023",
-      "description": "Georeferenzierte Unfalldaten mit Fahrradbeteiligung. Die Liste der Verkehrsunfälle mit Fahrradbeteiligung in Stadt- und Landkreis Karlsruhe kommt direkt vom Polizeipräsidium Karlsruhe und wurde über Frag den Staat angefragt. Passwort: odd2025",
-      "contact": "Maximilian Liesegang (OK Lab Karlsruhe)",
-      "useCases": "Unfallschwerpunkte Analyse",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/",
-      "imagePath": "img/fahrradunfall.png"
-    },
-    {
-      "name": "ZKM Besucherpfade & Archivdaten",
-      "publisher": "ZKM: Zentrum für Kunst und Medien Karlsruhe",
-      "topics": ["Kultur", "Digital Humanities"],
-      "formats": ["json"],
-      "size": "1,2 GB",
-      "description": "Daten zu Ausstellungen, Kunstwerken und Besucherbewegungen der Renaissance 3.0 Ausstellung. Passwort: odd2025",
-      "contact": "Andreas Kugel (OK Lab Karlsruhe)",
-      "useCases": "Kulturwissenschaftliche Forschung",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/zkm/odd25",
-      "imagePath": "img/zkmtracks.png"
-    },
-    {
-      "name": "Berlin zählt Mobilität! Und Karlsruhe auch.",
-      "publisher": "ADFC Berlin, Telraam, OK Lab Karlsruhe",
-      "topics": ["Mobilität", "IoT"],
-      "formats": ["CSV"],
-      "size": "Echtzeitdaten",
-      "description": "Wir haben verschiedene Sensoren in Karlsruhe aufgestellt, die Verkehrsteilnehmer zählen. Die Raspberry Pi-basierten Sensoren sind Teil des Netzwerks von Telraam und eine Leihgabe des Projekts 'Berlin Zählt Mobilität' / ADFC Berlin. Im Rahmen des Hackathons könnten wir diese Daten auswerten und visualisieren. Passwort: odd2025",
-      "contact": "Maximilian Liesegang (OK Lab Karlsruhe)",
-      "useCases": "Verkehrsflussanalysen, Umweltschutz, Stadtplanung, Verkehrsplanung",
-      "downloadUrl": "https://my.hidrive.com/#$/oklab-shared/telraam",
-      "imagePath": "img/telraam.png"
-    },
-    {
-      "name": "Karlsruher Transparenzportal: Data Dump & mehr",
-      "publisher": "Stadt Karlsruhe, OK Lab Karlsruhe",
-      "topics": ["Open Data", "Verwaltung", "Demografie", "Migration"],
-      "formats": ["PDF", "Verschiedene"],
-      "size": "565 Datensätze",
-      "description": "Das Transparenzportal (transparenz.karlsruhe.de) ist die zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe. Wir haben alle verfügbaren Datensätze heruntergeladen und aggregiert, inkl. verschiedener High-Value Datensätze. Wir haben außerdem ein paar Aufgabenstellungen formuliert, man könnte beispielsweise die Altersstruktur (in versch. Stadteilen) analysieren, das Verhätnis von Männern und Frauen vergleichen, die Alterspyramide untersuchen, schrumpfende und wachsende Ortsteile identifizieren oder Familienfreundliche Gebiete finden. Auch Bevölkerungsbewegungen und Migration könnten analysiert werden. Wie ist das Verhältnis zwischen Ausländern,  Menschen mit Migrationshintergrund und Bundesbürgern, erkennt man Unterschiede oder Trends in den Daten? Im Ordner 'tasks' findest du die für diese Fragen relevanten Datensätze. Passwort: odd2025",
+      "name": "DatenPortale KA + GovData",
+      "publisher": "Stadt Karlsruhe, Govdata.de",
+      "topics": [
+        "Open Data",
+        "Verwaltung",
+        "Demografie",
+        "Migration"
+      ],
+      "formats": [
+        "Verschiedene"
+      ],
+      "size": "KA: 768 Datensätze, Govdata: ca 500000 Datensätze",
+      "description": "Das Transparenzportal (transparenz.karlsruhe.de) ist die zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe. Wir haben alle verfügbaren Metadaten und Datensätze heruntergeladenWir haben außerdem ein paar Aufgabenstellungen formuliert, man könnte beispielsweise die Altersstruktur (in versch. Stadteilen) analysieren, das Verhätnis von Männern und Frauen vergleichen, die Alterspyramide untersuchen, schrumpfende und wachsende Ortsteile identifizieren oder Familienfreundliche Gebiete finden. Auch Bevölkerungsbewegungen und Migration könnten analysiert werden. Wie ist das Verhältnis zwischen Ausländern,  Menschen mit Migrationshintergrund und Bundesbürgern, erkennt man Unterschiede oder Trends in den Daten? Im Ordner 'tasks' findest du die für diese Fragen relevanten Datensätze. Govdata.de ist ein ähnlicher Datenkatalog auf Bundesebene, der von verschiedenen Behörden und Institutionen gefüllt wird. Es gibt dort ca 500000 Datensätze, die sich mit verschiedensten Themen beschäftigen. Es könnte spannend sein, hier nach interessanten Datensätzen zu suchen, diesich mit Karlsruhe beschäftigen, oder auch bundesweite Daten zu analysieren, um daraus Erkenntnisse für Karlsruhe zu gewinnen. AUfgrund der großen Anzahl an Datensätzen haben wir hier nur die Metadaten abgerufen. Die einzelnen Resourcen können bei Bedarf manuell von der Originalquelle bezogen werden.",
       "contact": "Wolfgang Radke, Michael Riedmüller (OK Lab Karlsruhe)",
       "useCases": "Analysen rund um Karlsruhe",
-      "downloadUrl": "https://my.hidrive.com/#$/oklab-shared/tp-ka",
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/DatenPortale",
       "imagePath": "img/transparenzportal.png"
     },
     {
-      "name": "Re@di: Open Data Portal für Ettlingen, Baden-Baden und weitere Städte",
-      "publisher": "Stadt Ettlingen & weitere",
-      "topics": ["Open Data", "Verwaltung"],
-      "formats": ["HTML", "CSV", "PDF", "XLSX", "GeoJSON", "..."],
-      "size": "133 Datensätze",
-      "description": "Das re@di-OpenDataPortal (https://opendata.readi.de/) ist die zentrale Anlaufstelle für offene Daten und Dokumente 8 großer Kreisstädte und 1 Stadtkreiß rund um Karlsruhe (Baden-Baden, Bretten, Bruchsal, Ettlingen, Rastatt, Rheinstetten und Stutensee). Zu den Datensätzen gehören unter anderem Trinkwasseranalysen, Wetter und Sensorikdaten, Wahlergebnisse, der Haushaltsplan, Bevölkerungsstatistiken und ein Mietspiegel. Passwort: odd2025",
-      "contact": "Oliver Hermann (Stadt Ettlingen, IuK)",
-      "useCases": "Open Data Analysen",
-      "downloadUrl": "https://my.hidrive.com/#$/oklab-shared/readi",
-      "imagePath": "img/readi.png"
+      "name": "Umweltdaten",
+      "publisher": "LUBW, Stadt Karlsruhe, Sensor Community, CycleSense",
+      "topics": [
+        "Umwelt",
+        "Open Data",
+        "Klima",
+        "Gesellschaft"
+      ],
+      "formats": [
+        "PDF",
+        "Tabellen"
+      ],
+      "size": "Unterschiedliche Größenordnungen, teilweise sehr groß",
+      "description": "Es gibt eine Vielzahl von Umweltdaten, die von verschiedenen Stellen bereitgestellt werden. Die LUBW (Landesanstalt für Umwelt Baden-Württemberg) stellt beispielsweise Daten zu Luftqualität, Wasserqualität und anderen Umweltparametern bereit. Die Stadt Karlsruhe hat ebenfalls Umweltdaten, beispielsweise zu Luftqualität an verschiedenen Messstellen in der Stadt. Es gibt auch Community-basierte Projekte wie Sensor Community oder CycleSense, die Umweltdaten sammeln und bereitstellen. Diese Daten können genutzt werden, um Umweltbedingungen zu analysieren, Veränderungen im Zeitverlauf zu beobachten oder auch um die Auswirkungen von Maßnahmen zu bewerten.",
+      "contact": "Lisa Hahn-Wörnle, Stefan Jergentz, Andreas Kugel (OK Lab Karlsruhe)",
+      "useCases": "Analysen, Monitoring, Bewertung von Umeltdaten",
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/UmweltDaten",
+      "imagePath": "img/umwelt.png"
     },
     {
-      "name": "Baumkataster Karlsruhe",
-      "publisher": "Stadt Karlsruhe, OK Lab Karlsruhe",
-      "topics": ["Umweltschutz", "Open Data", "Verwaltung"],
-      "formats": ["CSV", "JSON"],
-      "size": "144.758 Bäume",
-      "description": "Das Baumkataster gibt eine Übersicht über alle von der Stadt Karlsruhe gepflegten Bäume. Zu jedem Baum gibt es Geokoordinaten, den Stadtteil, Baum-Art und -Gruppe, sowie eine Beschreibung des Baumes. Es gibt bereits eine Karten-Visualisierung der Daten unter https://ok-lab-karlsruhe.de/projekte/baumkataster/ . Passwort: odd2025",
-      "contact": "Daniel Schwarz (Hochschule Karlsruhe), Andreas Kugel (OK Lab Karlsruhe)",
-      "useCases": "Analysen rund um Karlsruhe, Digital Twin, Mini-City Karlsruhe",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/baum-ka",
-      "imagePath": "img/baumkataster.png"
-    },
-    {
-      "name": "InXR: Code Reality",
-      "publisher": "Studio Blaupause",
-      "topics": ["eXtended Reality", "Augmented Reality", "Digitale Kunst"],
-      "formats": ["glb (animiert, statisch)", "mp4", "webp"],
-      "size": "10 Kunstwerke",
-      "description": "XR-3D-Modelle, Videos und Bilder für eine neue XR-Plattform für den öffentlichen Raum. Eure Challenge: Eine skalierbare WebXR-Plattform programmieren, vorzugsweise mit AR.js. Die Inhalte sollen über QR/XR Code Cubes erreichbar sein und positionsgenau eingebunden und dynamisch dargestellt werden. Dazu passend Eine intuitive und informative Benutzeroberfläche gestalten – responsive, performant, nutzerzentriert. Passwort: odd2025",
-      "contact": "Marvin Bauch, Julia Federspiel (Studio Blaupause)",
-      "useCases": "Digitale Kunstausstellung in Karlsruhe",
-      "downloadUrl": "https://my.hidrive.com/share/7tham.o1ma#$/blaupause",
-      "imagePath": "img/inxr.png"
-    },
-    {
-      "name": "Open Data Ressourcen für Karlsruhe",
-      "publisher": "Stadt Karlsruhe, OK Lab Karlsruhe",
-      "topics": ["Open Data", "Verwaltung"],
-      "formats": ["Markdown"],
-      "size": "25+ Quellen",
-      "description": "Das GitHub Repository dient als Übersicht für weitere Open-Data Ressourcen in Karlsruhe, enthält darüber hinaus aber auch Baden-Würrtemberg- und Deutschland-weite Portale, sowie Beispiele für Datenprojekte.",
-      "contact": "Alexander Melde (OK Lab Karlsruhe)",
-      "useCases": "Analysen rund um Karlsruhe, Inspiration",
-      "downloadUrl": "https://github.com/AlexanderMelde/opendata-karlsruhe",
-      "imagePath": "img/opendataka.png"
-    },
-    {
-        "name": "Stadtteilprofile",
-        "publisher": "Stadt Karlsruhe",
-        "topics": ["Bildung", "Gesellschaft", "Verkehr", "Wirtschaft"],
-        "formats": ["PDF", "Tabellen"],
-        "size": "220 Seiten plus Karten",
-        "description": "Die statistische Sonderveröffentlichung 'Stadtteilprofile  Karlsruhe' enthält die wichtigsten Zahlen und Fakten zu den Karlsruher  Stadtteilen und bietet einen systematischen und leicht verständlichen  Überblick über die Struktur und Entwicklung aller Stadtteile. Abgebildet  werden die wichtigsten Meilensteine der Geschichte der Stadtteile und  viele weitere Themengebiete wie beispielsweise Bevölkerung, Wirtschaft,  Sicherheit, Soziale Infrastruktur, Sportstätten, Kultur und Bildung. Zahlen und Fakten zu den Karlsruher Stadtteilen werden als pdf-Datei bereitgestellt",
-        "contact": "Josef Attmann (OK Lab Karlsruhe)",
-        "useCases": "Spiel Digital Twin zu Karlsruhe – Stadtteile bauen",
-        "downloadUrl": "https://ok-lab-karlsruhe.de/projects/karlsruhe/odd2024/data/Stadtteilprofile.zip",
-        "imagePath": "img/stadtteilprofile.png"
+      "name": "Mobilität",
+      "publisher": "Stadt Karlsruhe, Mobidata BW",
+      "topics": [
+        "Mobilität",
+        "Open Data",
+        "Verwaltung"
+      ],
+      "formats": [
+        "CSV",
+        "JSON",
+        "Andere"
+      ],
+      "size": "TBA: ca 50 Datensütze. Mobidata: ca 800 Datensätze",
+      "description": "Das Tiefbauamt Karlsruhe stellt über das Transparenzportal eine Reihe von Daten zum Thema Mobilität bereit. Diese Daten werden auch an die überregionale Stelle Mobidata-BW gelifert. ZU den Daten des TBA zählen folgende Themenbereiche: Sharing (Leihräder, E-Scooter, Carsharing), Parkhäuser (Belegungsdaten), Baustellen (Daten zu Baustellen und Sperrungen). Mobidata-BW liefert Daten über eine CKAN-API aus. Diese haben wir abgerufen, es stehen Daten und Metadaten zur Verfügung",
+      "contact": "Marco Schrumpf (TBA Karlsruhe), Patrick Schultz (FZI), Andreas Kugel (OK Lab)",
+      "useCases": "Analysen rund um Mobilität in Karlsruhe und BW, z.B. Nutzung von Sharing-Angeboten, Auswirkungen von Baustellen auf die Mobilität, Parkhausbelegung, etc.",
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/Mobilit%C3%A4t",
+      "imagePath": "img/mobility.png"
     }
   ]
 }
-
-/* TODO CycleSense, HiDrive: dataBW, destatis, govdata, ksk, regstatis, statistikAtlas-ka */
