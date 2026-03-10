@@ -92,7 +92,7 @@
         "JSON",
         "Andere"
       ],
-      "size": "TBA: ca 50 Datensütze. Mobidata: ca 800 Datensätze",
+      "size": "TBA: ca 50 Datensätze. Mobidata: ca 800 Datensätze",
       "description": "Das Tiefbauamt Karlsruhe stellt über das Transparenzportal eine Reihe von Daten zum Thema Mobilität bereit. Diese Daten werden auch an die überregionale Stelle Mobidata-BW gelifert. ZU den Daten des TBA zählen folgende Themenbereiche: Sharing (Leihräder, E-Scooter, Carsharing), Parkhäuser (Belegungsdaten), Baustellen (Daten zu Baustellen und Sperrungen). Mobidata-BW liefert Daten über eine CKAN-API aus. Diese haben wir abgerufen, es stehen Daten und Metadaten zur Verfügung",
       "contact": "Marco Schrumpf (TBA Karlsruhe), Patrick Schultz (FZI), Andreas Kugel (OK Lab)",
       "useCases": "Analysen rund um Mobilität in Karlsruhe und BW, z.B. Nutzung von Sharing-Angeboten, Auswirkungen von Baustellen auf die Mobilität, Parkhausbelegung, etc.",
