@@ -2,7 +2,7 @@
   "workshops": [
             {
           "name": "Barrierefreiheit",
-          "referent": "Artur Budnik (Sozial und Jugendbehörde Karlsruhe)",
+          "referent": "Artur Budnik (Sozial- und Jugendbehörde Karlsruhe)",
           "topics": ["Barrierefreiheit"],
           "format": "Workshop",
           "time": "Samstag 14.3.2026, 13:00-14:30 Uhr",
@@ -26,7 +26,7 @@
         },
         {
           "name": "Coding-Workshop mit Daten",
-          "referent": "Marie (OK Lab Karlsruhe)",
+          "referent": "Marie Bruns (OK Lab Karlsruhe), My Tien (OK Lab Karlsruhe)",
           "topics": ["Open Data", "Verwaltung", "KI", "Transparenz"],
           "format": "Workshop",
           "time": "Samstag 14.3.2026, 16:00-17:30 Uhr",
@@ -38,7 +38,7 @@
         },
         {
           "name": "Power für offene Daten mit PowerBI oder anderen DataTools",
-          "referent": "Michael (OK Lab Karlsruhe)",
+          "referent": "Michael Riedmüller (OK Lab Karlsruhe)",
           "topics": ["Open Data", "Business Intelligence", "Visualisierung"],
           "format": "Workshop",
           "time": "Samstag 14.3.2026, 17:30-19:00 Uhr",
@@ -50,7 +50,7 @@
         },
         {
           "name": "Führung House of Living Labs",
-          "referent": "TBA (FZI Forschungszentrum Informatik)",
+          "referent": "NN (FZI Forschungszentrum Informatik)",
           "topics": ["Open Data", "Verwaltung", "Forschung"],
           "format": "Führung",
           "time": "Bei Interesse wird es eine ca einstündige Führung durch das FZI geben. Bitte nachfragen.",
@@ -61,7 +61,7 @@
         },
         {
           "name": "Offene Geodaten finden und nutzen",
-          "referent": "Martin (OK Lab Karlsruhe)",
+          "referent": "Martin Weis (OK Lab Karlsruhe)",
           "topics": ["Open Data", "Geodaten", "Visualisierung"],
           "format": "Workshop",
           "time": "Sonntag 15.3.2026, 10:30-11:15 Uhr",
@@ -73,7 +73,7 @@
         },
         {
           "name": "PV-Planung aus Anwendersicht",
-          "referent": "Wolfgang (OK Lab Karlsruhe)",
+          "referent": "Wolfgang Radke (OK Lab Karlsruhe)",
           "topics": ["Open Data", "Verwaltung"],
           "format": "Workshop",
           "time": "Sonntag 15.3.2026, 11:20-12:10 Uhr",
@@ -84,7 +84,7 @@
           "imageAlt": "OK Lab Logo"
         },
         {
-          "name": "KA-RIS: Das Karlsruher Ratsinformationssystem",
+          "name": "Das Karlsruher Ratsinformationssystem",
           "referent": "Jaro (OK Lab Karlsruhe, Heidelberg)",
           "topics": ["Open Data", "Verwaltung", "KI", "Transparenz"],
           "format": "Workshop",
@@ -109,7 +109,7 @@
         },
         {
           "name": "Der Auenbot",
-          "referent": "Andreas (OK Lab Karlsruhe)",
+          "referent": "Andreas Kugel (OK Lab Karlsruhe)",
           "topics": ["Open Data", "Verwaltung"],
           "format": "Workshop",
           "time": "Sonntag 15.3.2026, 14:50-15:30 Uhr",
@@ -121,7 +121,7 @@
         },
         {
           "name": "Digitale Tools zur Vernetzung",
-          "referent": "Jasmin, Martin (OK Lab Karlsruhe)",
+          "referent": "Jasmin Kunchiwala (OK Lab Karlsruhe), Martin Weis (OK Lab Karlsruhe)",
           "topics": ["Open Tools", "Kommunikation", "Zivilgesellschaft"],
           "format": "Workshop",
           "time": "Sonntag 15.3.2026, 15:35-16:20 Uhr",
