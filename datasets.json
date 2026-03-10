@@ -1,6 +1,22 @@
 {
   "datasets": [
     {
+      "name": "ODD 2026 Daten - lokal gehostet",
+      "publisher": "Verschiedene Quellen - u.a. Stadt Karlsruhe, LUBW, OK Lab",
+      "topics": [
+        "Offene Daten"
+      ],
+      "formats": [
+        "Verschiedene, siehe Datensteckbriefe"
+      ],
+      "size": "16GB",
+      "description": "Die Daten für die Hack Days 2026 sind lokal abrufbar via WLAN. Auf das WLAN mit der ESSID FreedomBoxwlan0 kann mit dem Passwort freedombox123 verbunden werden, Mobilgeräte können den QR code nutzen. Die Daten können als Netzwerk-Dateisystem (CIFS,Samba, Windows Share) eingebunden werden von \\ok-freedombox (Windows) oder smb://ok-freedombox.local (Linux und Mac), oder via Browser https://ok-freedombox.local/share/oklabpublic/",
+      "contact": "Martin Weis (OK Lab), Thomas Hauenstein (Liegenschaftsamt Karlsruhe)",
+      "useCases": "Hack Days Datenquelle",
+      "downloadUrl": "https://ok-freedombox.local/share/oklabpublic/",
+      "imagePath": "img/freedombox-qrcodes.png"
+    },
+    {
       "name": "3D-Stadtmodell Karlsruhe",
       "publisher": "Liegenschaftsamt Karlsruhe",
       "topics": [

@@ -91,7 +91,7 @@
           "time": "Sonntag 15.3.2026, 12:15-13:00 Uhr",
           "description": "Die wesentlichen Verhandlungen und Beschlüsse in der Stadt finden im Rat statt, der im Ratsinformationssystem die zugehörigen Dokumente digital bereitstellt. Die Bereitstellung erfolgt überwiegend in Form von Texten und Abbildungen im PDF Format. Wir wollen uns damit beschäftigen, wie man die wertvollen Informationen besser als mit einer einfachen Suche nutzbar machen kann - textuelle Analysen und Sprachmodelle können uns dabei sicher helfen.",
           "prerequisites": "Keine",
-          "location": "TBA",
+          "location": "Workshopraum FZI House of Living Labs",
           "imagePath": "img/karis.png",
           "imageAlt": "Screenshot, der eine Suche im Ratsinformationssystem zeigt."
         },
@@ -127,19 +127,19 @@
           "time": "Sonntag 15.3.2026, 15:35-16:20 Uhr",
           "description": "Dieser Workshop beschäftigt sich mit digitalen Tools zur Vernetzung, die für die Organisation in der Zivilgesellschaft genutzt werden können. Der Fokus liegt dabei darauf, Alternativen zu den großen Anbietern und Plattformen aufzuzeigen, die eine Community unabhängiger und resilienter macht. Wir wollen in dem Workshop herausfinden, wie man anhand von Fragen eine passende Auswahl für die eigene Community treffen kann.",
           "prerequisites": "Keine",
-          "location": "TBA",
+          "location": "Workshopraum FZI House of Living Labs",
           "imagePath": "img/digitale-vernetzung.png",
           "imageAlt": "OK Lab Logo"
         },
         {
           "name": "Sensoren DIY",
-          "referent": "Andreas, Martin (OK Lab Karlsruhe)",
+          "referent": "Andreas Kugel (OK Lab Karlsruhe), Martin Weis (OK Lab Karlsruhe)",
           "topics": ["Programmierung", "Sensoren", "Open Data"],
           "format": "Workshop",
           "time": "Auf Nachfrage",
           "description": "Dieser Workshop führt in Sensoren zur Messung von Umweltparametern und die Programmierung eigener Geräte ein. Ziel ist es, sich eine eigene Sensorstation bauen zu können und diese mit eigenen Automatisierungen zu programmieren. Mit den zur Verfügung gestellten Systemen können auch Programmieranfänger ihre eigenen Ideen umsetzen.",
           "prerequisites": "Keine",
-          "location": "TBA",
+          "location": "Workshopraum FZI House of Living Labs",
           "imagePath": "img/sens-ws.png",
           "imageAlt": "Ein Sensorbausatz mit Datenvisualisierung"
         }
