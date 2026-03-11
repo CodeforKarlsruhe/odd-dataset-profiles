@@ -27,7 +27,7 @@
         {
           "name": "Coding-Workshop mit Daten",
           "referent": "Marie Bruns (OK Lab Karlsruhe), My Tien (OK Lab Karlsruhe)",
-          "topics": ["Open Data", "Verwaltung", "KI", "Transparenz"],
+          "topics": ["Open Data", "Datenanalyse", "Datenvisualisierung"],
           "format": "Workshop",
           "time": "Samstag 14.3.2026, 16:00-17:30 Uhr",
           "description": "Für einen Codingworkshop zur Codeweek BW 2026 wurden verschiedene offene Datensätze für die Bearbeitung zusammengestellt. Wir geben einen aktuellen Überblick und helfen, diese für eigene Fragen und Visualisierungen zu nutzen. Dazu kann eine Jupyter Notebook Umgebung genutzt werden, in der Code geschrieben und direkt ausgeführt wird - ein einfacher Einstieg in die schnelle Entwicklung.",
