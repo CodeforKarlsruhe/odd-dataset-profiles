@@ -114,6 +114,23 @@
       "useCases": "Analysen rund um Mobilität in Karlsruhe und BW, z.B. Nutzung von Sharing-Angeboten, Auswirkungen von Baustellen auf die Mobilität, Parkhausbelegung, etc.",
       "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/Mobilit%C3%A4t",
       "imagePath": "img/mobility.png"
+    },
+    {
+      "name": "Barrierefreiheit",
+      "publisher": "Stadt Karlsruhe, Sozialhelden, OSM",
+      "topics": [
+        "Barrierefreiheit"
+      ],
+      "formats": [
+        "GeoJSON",
+        "Andere"
+      ],
+      "size": "Unterschiedlich",
+      "description": "Information zu Barrierefreiheit in Karlsruhe von verschiedenen Quellen. TP, Liegenschaftsamt, AccessibilityMap (Sozialhelden), OSM. In den Beispieldaten des Liegenschaftsamtes wird erkennbar, welche Angaben wichtig sind.",
+      "contact": "Andreas Kugel (OK Lab)",
+      "useCases": "Status Barrierefreiheit in Karlsruhe, z.B. Zugänglichkeit von öffentlichen Gebäuden, Verkehrsmitteln und Infrastruktur",
+      "downloadUrl": "https://my.hidrive.com/share/10.0hxq4we#$/barrierefrei",
+      "imagePath": "img/barrierefrei_small.png"
     }
   ]
 }

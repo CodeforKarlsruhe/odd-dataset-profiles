@@ -38,31 +38,6 @@ function generateDatasetEntries()
 end
 
 
-function generateWorkshopEntries()
-    local _, workshops = pcall(loadJson, "workshops.json")
-
-    for _, ds in ipairs(workshops.workshops) do
-
-        local meta = [[
-            \section*{]].. escapeLatex(ds.name) ..[[}
-            \textbf{Sprecher:} ]] .. escapeLatex(ds.referent) .. [[ \\[0.5em]
-            \textbf{Themen:} ]] .. escapeLatex(table.concat(ds.topics, ", ")) .. [[ \\[0.5em]
-            \textbf{Format:} ]] .. escapeLatex(ds.format) .. [[ \\[0.5em]
-            \textbf{Zeit} ]] .. escapeLatex(ds.time) .. [[ \\[0.5em]
-            \textbf{Kurzbeschreibung:} \\
-            ]] .. escapeLatex(ds.description) .. [[ \\[0.5em]
-        ]]
-
-        local image = centeredImage(ds.imagePath)
-
-        local contact = [[
-            \textbf{Voraussetzungen:} ]] .. escapeLatex(ds.prerequisites) .. [[ \\[1em]
-            \textbf{Ort:} ]] .. escapeLatex(ds.location) .. [[ \clearpage
-        ]]
-
-        outputLatex(meta .. image .. contact)
-    end
-end
 
 \end{luacode*}
 
@@ -74,12 +49,6 @@ end
 \lhead{
     \textbf{Open Data Hack-Days Karlsruhe 2026} \\[0.2cm]
     \small Daten-Steckbrief
-}
-}
-\fancypagestyle{workshop}{
-\lhead{
-    \textbf{Open Data Hack-Days Karlsruhe 2026} \\[0.2cm]
-    \small Workshop
 }
 }
 \rhead{
@@ -101,6 +70,4 @@ end
     \directlua{dofile("utils.lua")}
     \pagestyle{dataprofile}
     \directlua{generateDatasetEntries()}
-    \pagestyle{workshop}
-    \directlua{generateWorkshopEntries()}
 \end{document}

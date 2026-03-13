@@ -1,16 +1,28 @@
 {
   "workshops": [
-            {
-          "name": "Barrierefreiheit",
-          "referent": "Artur Budnik (Sozial- und Jugendbehörde Karlsruhe)",
-          "topics": ["Barrierefreiheit"],
-          "format": "Workshop",
-          "time": "Samstag 14.3.2026, 13:00-14:30 Uhr",
-          "description": "Barrierefreiheit sichtbar machen: Im Workshop zeigen wir, wie Daten zu barrierefreien Orten gesammelt, offen bereitgestellt und in Karten genutzt werden können – von Karlsruhe bis zu globalen Plattformen. In den Beispieldaten des Liegenschaftsamtes wird erkennbar, welche Angaben wichtig sind. Wir lernen die Web-App „Karlsruhe barrierefrei“ kennen und probieren praktisch aus, wie sich Informationen zu Barrierefreiheit erheben lassen. In einer kurzen Tour werden wir die Eigenschaften des Veranstaltungsortes am FZI oder eines Orts in der Nachbarschaft erkunden.",
+        {
+          "name": "CorrelAid",
+          "referent": "Nevena Nikolajevic (CorrelAid)",
+          "topics": ["Open Data"],
+          "format": "Vortrag",
+          "time": "Samstag 14.3.2026, 13:00-13:30 Uhr",
+          "description": "Nevena stellt CorrelAid. Die Mission von CorrelAid ist es, die Zivilgesellschaft dabei zu unterstützen, Daten für ihre Wirkung nutzbar zu machen.",
           "prerequisites": "Keine",
           "location": "Workshopraum FZI House of Living Labs",
-          "imagePath": "img/barrierefrei_small.png",
-          "imageAlt": "Workshop Barrierefrei"
+          "imagePath": "img/correlaid.png",
+          "imageAlt": "CorrelAid Webseite"
+        },
+        {
+          "name": "Sensoren DIY",
+          "referent": "Andreas Kugel (OK Lab Karlsruhe), Martin Weis (OK Lab Karlsruhe)",
+          "topics": ["Programmierung", "Sensoren", "Open Data"],
+          "format": "Workshop",
+          "time": "Samstag 14.3.2026, 13:45-14:30 Uhr",
+          "description": "Dieser Workshop führt in Sensoren zur Messung von Umweltparametern und die Programmierung eigener Geräte ein. Ziel ist es, sich eine eigene Sensorstation bauen zu können und diese mit eigenen Automatisierungen zu programmieren. Mit den zur Verfügung gestellten Systemen können auch Programmieranfänger ihre eigenen Ideen umsetzen.",
+          "prerequisites": "Keine",
+          "location": "Workshopraum FZI House of Living Labs",
+          "imagePath": "img/sens-ws.png",
+          "imageAlt": "Ein Sensorbausatz mit Datenvisualisierung"
         },
         {
           "name": "Klimaschutz und Klimabilanz in Karlsruhe",
@@ -130,18 +142,6 @@
           "location": "Workshopraum FZI House of Living Labs",
           "imagePath": "img/digitale-vernetzung.png",
           "imageAlt": "OK Lab Logo"
-        },
-        {
-          "name": "Sensoren DIY",
-          "referent": "Andreas Kugel (OK Lab Karlsruhe), Martin Weis (OK Lab Karlsruhe)",
-          "topics": ["Programmierung", "Sensoren", "Open Data"],
-          "format": "Workshop",
-          "time": "Auf Nachfrage",
-          "description": "Dieser Workshop führt in Sensoren zur Messung von Umweltparametern und die Programmierung eigener Geräte ein. Ziel ist es, sich eine eigene Sensorstation bauen zu können und diese mit eigenen Automatisierungen zu programmieren. Mit den zur Verfügung gestellten Systemen können auch Programmieranfänger ihre eigenen Ideen umsetzen.",
-          "prerequisites": "Keine",
-          "location": "Workshopraum FZI House of Living Labs",
-          "imagePath": "img/sens-ws.png",
-          "imageAlt": "Ein Sensorbausatz mit Datenvisualisierung"
         }
     ],
     "template": 
